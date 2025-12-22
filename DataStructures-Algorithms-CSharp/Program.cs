@@ -67,6 +67,21 @@ namespace DataStructures_Algorithms_CSharp
             Sorting.InsertionSort(arr9);
             #endregion
 
+
+            #region Merge Sort
+            Console.WriteLine("Merge Sort");
+            Sorting.MergeSort(arr1);
+            Sorting.MergeSort(arr2);
+            Sorting.MergeSort(arr3);
+            Sorting.MergeSort(arr4);
+            Sorting.MergeSort(arr5);
+            Sorting.MergeSort(arr6);
+            Sorting.MergeSort(arr7);
+            Sorting.MergeSort(arr8);
+            Sorting.MergeSort(arr9);
+
+            #endregion
+
             // print arrays
 
             foreach (var item in arr1)
