@@ -1,4 +1,5 @@
 ﻿using DataStructures_Algorithms_CSharp.Algorithms.Sorting;
+using DataStructures_Algorithms_CSharp.DataStructures.LinkedList.Doubly;
 using DataStructures_Algorithms_CSharp.DataStructures.LinkedList.Singly;
 using DataStructures_Algorithms_CSharp.DataStructures.Stack.Array;
 
@@ -212,8 +213,19 @@ namespace DataStructures_Algorithms_CSharp
             #endregion
 
 
+            #region DoublyLinkeList
+            //var list = new DoublyLinkedList();
+
+            //list.InsertFirst(10);
+            //list.InsertLast(20);
+            //list.InsertLast(30);
+       
+            //list.Print(list.Head);
+
             #endregion
 
+
+            #endregion
 
             #region Algorithms
 
@@ -291,6 +303,7 @@ namespace DataStructures_Algorithms_CSharp
             //Console.WriteLine();
 
             #endregion
+
 
             #endregion
 
