@@ -1,4 +1,5 @@
-﻿using DataStructures_Algorithms_CSharp.Algorithms.Sorting;
+﻿using DataStructures_Algorithms_CSharp.Algorithms.Searching.BinarySearch;
+using DataStructures_Algorithms_CSharp.Algorithms.Sorting;
 using DataStructures_Algorithms_CSharp.DataStructures.LinkedList.Doubly;
 using DataStructures_Algorithms_CSharp.DataStructures.LinkedList.Singly;
 using DataStructures_Algorithms_CSharp.DataStructures.Stack.Array;
@@ -219,7 +220,7 @@ namespace DataStructures_Algorithms_CSharp
             //list.InsertFirst(10);
             //list.InsertLast(20);
             //list.InsertLast(30);
-       
+
             //list.Print(list.Head);
 
             #endregion
@@ -304,6 +305,25 @@ namespace DataStructures_Algorithms_CSharp
 
             #endregion
 
+
+            #region Searching
+            int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+
+            Console.WriteLine(Searching.BinarySearch(arr, 0, 0, arr.Length - 1));
+            Console.WriteLine(Searching.BinarySearch(arr, 1, 0, arr.Length - 1));
+            Console.WriteLine(Searching.BinarySearch(arr, 2, 0, arr.Length - 1));
+            Console.WriteLine(Searching.BinarySearch(arr, 3, 0, arr.Length - 1));
+            Console.WriteLine(Searching.BinarySearch(arr, 4, 0, arr.Length - 1));
+            Console.WriteLine(Searching.BinarySearch(arr, 5, 0, arr.Length - 1));
+            Console.WriteLine(Searching.BinarySearch(arr, 6, 0, arr.Length - 1));
+            Console.WriteLine(Searching.BinarySearch(arr, 7, 0, arr.Length - 1));
+            Console.WriteLine(Searching.BinarySearch(arr, 8, 0, arr.Length - 1));
+            Console.WriteLine(Searching.BinarySearch(arr, 9, 0, arr.Length - 1));
+            Console.WriteLine(Searching.BinarySearch(arr, 10, 0, arr.Length - 1));
+            Console.WriteLine(Searching.BinarySearch(arr, 11, 0, arr.Length - 1));
+            Console.WriteLine(Searching.BinarySearch(arr, 12, 0, arr.Length - 1));
+            #endregion
 
             #endregion
 
