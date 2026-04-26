@@ -1,4 +1,4 @@
-﻿using DataStructures_Algorithms_CSharp.Algorithms.Searching.BinarySearch;
+﻿using DataStructures_Algorithms_CSharp.Algorithms.Searching;
 using DataStructures_Algorithms_CSharp.Algorithms.Sorting;
 using DataStructures_Algorithms_CSharp.DataStructures.LinkedList.Doubly;
 using DataStructures_Algorithms_CSharp.DataStructures.LinkedList.Singly;
@@ -234,15 +234,15 @@ namespace DataStructures_Algorithms_CSharp
             #region Sorting
 
             // Test arrays
-            //int[] arr1 = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-            //int[] arr2 = { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 };
-            //int[] arr3 = { 64, 34, 25, 12, 22, 11, 90, 88, 75, 50 };
-            //int[] arr4 = { 5, 2, 8, 2, 9, 1, 5, 3, 5, 7 };
-            //int[] arr5 = { -5, 10, -3, 8, -1, 0, 4, -9, 7, 2 };
-            //int[] arr6 = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 };
-            //int[] arr7 = { };
-            //int[] arr8 = { 42 };
-            //int[] arr9 = { Int32.MinValue, Int32.MaxValue, 0, -1000000, 1000000, 999, -999 };
+            int[] arr1 = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            int[] arr2 = { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 };
+            int[] arr3 = { 64, 34, 25, 12, 22, 11, 90, 88, 75, 50 };
+            int[] arr4 = { 5, 2, 8, 2, 9, 1, 5, 3, 5, 7 };
+            int[] arr5 = { -5, 10, -3, 8, -1, 0, 4, -9, 7, 2 };
+            int[] arr6 = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 };
+            int[] arr7 = { };
+            int[] arr8 = { 42 };
+            int[] arr9 = { Int32.MinValue, Int32.MaxValue, 0, -1000000, 1000000, 999, -999 };
 
 
             #region Insertion Sort
@@ -307,22 +307,22 @@ namespace DataStructures_Algorithms_CSharp
 
 
             #region Searching
-            int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            //int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
 
-            Console.WriteLine(Searching.BinarySearch(arr, 0, 0, arr.Length - 1));
-            Console.WriteLine(Searching.BinarySearch(arr, 1, 0, arr.Length - 1));
-            Console.WriteLine(Searching.BinarySearch(arr, 2, 0, arr.Length - 1));
-            Console.WriteLine(Searching.BinarySearch(arr, 3, 0, arr.Length - 1));
-            Console.WriteLine(Searching.BinarySearch(arr, 4, 0, arr.Length - 1));
-            Console.WriteLine(Searching.BinarySearch(arr, 5, 0, arr.Length - 1));
-            Console.WriteLine(Searching.BinarySearch(arr, 6, 0, arr.Length - 1));
-            Console.WriteLine(Searching.BinarySearch(arr, 7, 0, arr.Length - 1));
-            Console.WriteLine(Searching.BinarySearch(arr, 8, 0, arr.Length - 1));
-            Console.WriteLine(Searching.BinarySearch(arr, 9, 0, arr.Length - 1));
-            Console.WriteLine(Searching.BinarySearch(arr, 10, 0, arr.Length - 1));
-            Console.WriteLine(Searching.BinarySearch(arr, 11, 0, arr.Length - 1));
-            Console.WriteLine(Searching.BinarySearch(arr, 12, 0, arr.Length - 1));
+            //Console.WriteLine(Searching.BinarySearch(arr, 0, 0, arr.Length - 1));
+            //Console.WriteLine(Searching.BinarySearch(arr, 1, 0, arr.Length - 1));
+            //Console.WriteLine(Searching.BinarySearch(arr, 2, 0, arr.Length - 1));
+            //Console.WriteLine(Searching.BinarySearch(arr, 3, 0, arr.Length - 1));
+            //Console.WriteLine(Searching.BinarySearch(arr, 4, 0, arr.Length - 1));
+            //Console.WriteLine(Searching.BinarySearch(arr, 5, 0, arr.Length - 1));
+            //Console.WriteLine(Searching.BinarySearch(arr, 6, 0, arr.Length - 1));
+            //Console.WriteLine(Searching.BinarySearch(arr, 7, 0, arr.Length - 1));
+            //Console.WriteLine(Searching.BinarySearch(arr, 8, 0, arr.Length - 1));
+            //Console.WriteLine(Searching.BinarySearch(arr, 9, 0, arr.Length - 1));
+            //Console.WriteLine(Searching.BinarySearch(arr, 10, 0, arr.Length - 1));
+            //Console.WriteLine(Searching.BinarySearch(arr, 11, 0, arr.Length - 1));
+            //Console.WriteLine(Searching.BinarySearch(arr, 12, 0, arr.Length - 1));
             #endregion
 
             #endregion

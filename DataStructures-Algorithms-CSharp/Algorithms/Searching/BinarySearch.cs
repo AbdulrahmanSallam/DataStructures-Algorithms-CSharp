@@ -4,17 +4,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataStructures_Algorithms_CSharp.Algorithms.Searching.BinarySearch
+namespace DataStructures_Algorithms_CSharp.Algorithms.Searching
 {
     public partial class Searching
     {
-        public static bool BinarySearch(int[] arr,int target,int start,int end)
+
+        public static int BinarySearch(int[] arr, int target)
         {
-            if (start > end) return false;
+            return  BinarySearch(arr, target, 0, arr.Length - 1);
+        }
+
+
+        public static int BinarySearch(int[] arr,int target,int start,int end)
+        {
+            if (start > end) return -1;
 
             int mid =  start +( end - start) / 2;
 
-            if ( arr[mid] == target) return true;
+            if ( arr[mid] == target) return mid;
             else if (arr[mid] > target)
             {
                 return BinarySearch(arr, target, start, mid-1);
@@ -23,7 +30,6 @@ namespace DataStructures_Algorithms_CSharp.Algorithms.Searching.BinarySearch
             {
                 return BinarySearch(arr, target, mid+1, end);
             }
-
         }
        
 
